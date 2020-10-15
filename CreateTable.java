@@ -99,7 +99,7 @@ public class CreateTable extends javax.swing.JFrame implements ActionListener{
             }
         });
         
-        jLabel1.setBounds(30,10,120,40);
+        jLabel1.setBounds(30,10,120,40);//add lable to continer
         jTextField1.setBounds(150, 10, 200, 40);
         sp.setBounds(30,70,520,400);
         submit.setBounds(130,480,150,40);

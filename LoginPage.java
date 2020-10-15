@@ -113,6 +113,7 @@ public class LoginPage extends javax.swing.JFrame {
         try{
             Class.forName("oracle.jdbc.OracleDriver");
             con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE",userName,password);
+            JOptionPane.showMessageDialog(null,"Connected Successfully");
             if(con!=null){
                 JOptionPane.showMessageDialog(null,"Connected Successfully");
                 DataBaseFunctions db = new DataBaseFunctions(userName,password);
